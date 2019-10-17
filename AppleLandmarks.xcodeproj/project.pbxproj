@@ -31,6 +31,7 @@
 		1D9C116D23584C82006CABDB /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D9C115E23584C82006CABDB /* chilkoottrail.jpg */; };
 		1D9C116E23584C82006CABDB /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D9C115F23584C82006CABDB /* rainbowlake.jpg */; };
 		1D9C117023584E2A006CABDB /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9C116F23584E2A006CABDB /* LandmarkRow.swift */; };
+		1D9C117223584F8B006CABDB /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9C117123584F8B006CABDB /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		1D9C115E23584C82006CABDB /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		1D9C115F23584C82006CABDB /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
 		1D9C116F23584E2A006CABDB /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		1D9C117123584F8B006CABDB /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				1D70B9C12357008100BDC2F6 /* SceneDelegate.swift */,
 				1D70B9C32357008100BDC2F6 /* LandmarkDetail.swift */,
 				1D9C116F23584E2A006CABDB /* LandmarkRow.swift */,
+				1D9C117123584F8B006CABDB /* LandmarkList.swift */,
 				1D70B9C52357008300BDC2F6 /* Assets.xcassets */,
 				1D70B9CA2357008300BDC2F6 /* LaunchScreen.storyboard */,
 				1D70B9CD2357008300BDC2F6 /* Info.plist */,
@@ -233,6 +236,7 @@
 				1D70B9C02357008100BDC2F6 /* AppDelegate.swift in Sources */,
 				1D9C116023584C82006CABDB /* Data.swift in Sources */,
 				1D70B9D42357041100BDC2F6 /* CircleImage.swift in Sources */,
+				1D9C117223584F8B006CABDB /* LandmarkList.swift in Sources */,
 				1D70B9D6235704E400BDC2F6 /* MapView.swift in Sources */,
 				1D70B9C22357008100BDC2F6 /* SceneDelegate.swift in Sources */,
 				1D9C117023584E2A006CABDB /* LandmarkRow.swift in Sources */,
