@@ -1,10 +1,9 @@
-//
-//  BadgeBackground.swift
-//  AppleLandmarks
-//
-//  Created by Quentin Genevois on 21/10/2019.
-//  Copyright © 2019 Quentin Genevois. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view that displays the background of a badge.
+*/
 
 import SwiftUI
 
@@ -31,7 +30,7 @@ struct BadgeBackground: View {
                             y: height * $0.useHeight.0 * $0.yFactors.0
                         )
                     )
-
+                    
                     path.addQuadCurve(
                         to: .init(
                             x: xOffset + width * $0.useWidth.1 * $0.xFactors.1,
