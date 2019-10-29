@@ -57,6 +57,7 @@
 		1DCC08F62368366D00B6BF08 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCC08F52368366D00B6BF08 /* PageViewController.swift */; };
 		1DCC08F82368375500B6BF08 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCC08F72368375500B6BF08 /* PageView.swift */; };
 		1DCC08FA2368378A00B6BF08 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCC08F92368378A00B6BF08 /* FeatureCard.swift */; };
+		1DCC08FC23683D2E00B6BF08 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCC08FB23683D2E00B6BF08 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +113,8 @@
 		1DCC08F52368366D00B6BF08 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		1DCC08F72368375500B6BF08 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		1DCC08F92368378A00B6BF08 /* FeatureCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		1DCC08FB23683D2E00B6BF08 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		1DCC08FD2368435000B6BF08 /* AppleLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleLandmarks.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,7 @@
 		1D70B9BE2357008100BDC2F6 /* AppleLandmarks */ = {
 			isa = PBXGroup;
 			children = (
+				1DCC08FD2368435000B6BF08 /* AppleLandmarks.entitlements */,
 				1DA47C562366E4F500C94530 /* Profile */,
 				1D70B9BF2357008100BDC2F6 /* AppDelegate.swift */,
 				1D70B9C12357008100BDC2F6 /* SceneDelegate.swift */,
@@ -151,6 +155,7 @@
 				1DCC08F52368366D00B6BF08 /* PageViewController.swift */,
 				1DCC08F72368375500B6BF08 /* PageView.swift */,
 				1D89D1242362E63800636C17 /* CategoryHome.swift */,
+				1DCC08FB23683D2E00B6BF08 /* PageControl.swift */,
 				1D70B9C32357008100BDC2F6 /* LandmarkDetail.swift */,
 				1D71761A23609F7D00521EF5 /* HikeDetail.swift */,
 				1D71761B23609F7D00521EF5 /* HikeView.swift */,
@@ -354,6 +359,7 @@
 				1DA47C292366E3FE00C94530 /* CircleImage.swift in Sources */,
 				1DA47C262366E3FE00C94530 /* HikeGraph.swift in Sources */,
 				1DA47C582366E5AA00C94530 /* ProfileSummary.swift in Sources */,
+				1DCC08FC23683D2E00B6BF08 /* PageControl.swift in Sources */,
 				1D70B9C42357008100BDC2F6 /* LandmarkDetail.swift in Sources */,
 				1DCC08F42368360B00B6BF08 /* Data.swift in Sources */,
 				1DA47C5C2366EA0200C94530 /* ProfileEditor.swift in Sources */,
@@ -492,7 +498,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppleLandmarks/AppleLandmarks.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"AppleLandmarks/Preview Content\"";
 				DEVELOPMENT_TEAM = NAQZZV4R42;
 				ENABLE_PREVIEWS = YES;
@@ -503,6 +511,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = quentin.genevois.AppleLandmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -512,7 +521,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppleLandmarks/AppleLandmarks.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"AppleLandmarks/Preview Content\"";
 				DEVELOPMENT_TEAM = NAQZZV4R42;
 				ENABLE_PREVIEWS = YES;
@@ -523,6 +534,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = quentin.genevois.AppleLandmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
