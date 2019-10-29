@@ -2,9 +2,8 @@
 See LICENSE folder for this sample’s licensing information.
 
 Abstract:
-A model object that stores user profile data.
+An object that models a user profile.
 */
-
 import Foundation
 
 struct Profile {
@@ -13,7 +12,7 @@ struct Profile {
     var seasonalPhoto: Season
     var goalDate: Date
     
-    static let `default` = Self(username: "QuentinG", prefersNotifications: true, seasonalPhoto: .winter)
+    static let `default` = Self(username: "g_kumar", prefersNotifications: true, seasonalPhoto: .winter)
     
     init(username: String, prefersNotifications: Bool = true, seasonalPhoto: Season = .winter) {
         self.username = username
