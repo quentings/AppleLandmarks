@@ -24,7 +24,7 @@ struct ProfileSummary: View {
                 .bold()
                 .font(.title)
 
-            Text("Notifications: \(self.profile.prefersNotifications ? "On": "Off" )")
+            Text("Notifications: \(self.profile.prefersNotifications ? "On" : "Off")")
 
             Text("Seasonal Photos: \(self.profile.seasonalPhoto.rawValue)")
 
@@ -56,7 +56,6 @@ struct ProfileSummary: View {
                 HikeView(hike: hikeData[0])
             }
         }
-//        .listStyle(GroupedListStyle())
     }
 }
 
